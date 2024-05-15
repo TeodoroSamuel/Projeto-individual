@@ -1,6 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    background-color: black;
 }
 
 header {
@@ -10,40 +11,72 @@ header {
     flex-direction: column;
 }
 
-.borda {
-    width: 100%;
-    height: 10000px;
-    background: linear-gradient(50deg, #936f21 20%, #e9b33f 30%, #ffaf03);
+header > .borda-inferior{
+    align-items: end;
+    justify-content: end;
 }
 
-.header-wrap {
-    height: 100px;
-    width: auto;
+.cabecalho {
+    height: 60px;
+    width: 100%;
+    list-style: none;
+    /* background:linear-gradient(50deg, rgba(0, 0, 0, 0.785) 40%  ) */
+    background-image: url('./img/madeira.jpg');
+}
 
+.disfarce-cabecalho{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.573);
+}
 
+.login-texto-cabecalho {
+    color: #dbdbdb;
+    font-size: 50px;
+    font-family: 'Times', 'Times New Roman', 'serif';
+}
+
+.estrutura {
+    width: 100%;
+    height: 673px;
+    background-image: url('./img/mystery-shack-sunny-forest-gravity-falls-moewalls-com.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.disfarce-da-estrutura{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+.dados-do-login{
+    width: 540px;
+    height: 540px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.132);
+}
+
+.borda-inferior{
+    width: 100%;
+    height: 60px;
+    background-image: url('./img/madeira.jpg');
+}
+
+.disfarce-borda-inferior{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.573);
 }
 
 .text {
     color: #e9b33f;
     width: 100%;
-}
-
-/* .foto {
-    height: 700px;
-    width: 100%;
-    background-image: url('../Css/img/Mystery\ Shack\ Time\ Lapse\ _\ Gravity\ Falls.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-} */
-
-.cabecalho{
-    height: 70px;
-    width: 100%;
-    background-color: #5e440c;
-}
-
-.home-cabecalho{
-    color: #ffaf03;
-    
 }
