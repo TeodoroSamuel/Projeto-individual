@@ -1,0 +1,9 @@
+.area-texto{
+    background-image: url('../img/pentagrama-gravity-falls.webp');
+    opacity: 0.6;
+}
+
+.area-foto{
+    background-image: url('../img/mabel-png.jpg');
+    opacity: 0.8;
+}
