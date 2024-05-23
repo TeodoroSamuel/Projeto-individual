@@ -1,11 +1,10 @@
 body{
-    background-image: url('../img/mystery-shack-sunny-forest-gravity-falls-moewalls-com.gif');
+    background-image: url('../img/portal.webp');
 }
 
 .area-foto{
-    background-image: url('../img/dipper-png.png');
+    background-image: url('../img/stanpines.gif');
     background-position: 48%;
-    opacity: 0.8;
 }
 
 .area-texto{

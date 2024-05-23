@@ -1,22 +1,22 @@
 body{
-    background-image: url('../img/mystery-shack-sunny-forest-gravity-falls-moewalls-com.gif');
+    background-image: url('../img/fearamid2.webp');
 }
 
 .area-foto{
-    background-image: url('../img/dipper-png.png');
-    background-position: 48%;
+    background-image: url('../img/bill-cipher-demon-form.gif');
+    background-position: 70%;
     opacity: 0.8;
 }
 
 .area-texto{
-    background-image: url('../img/pentagrama-gravity-falls.webp');
+    background-image: url('../img/pentagrama-gravity-falls.gif');
     opacity: 0.6;
 }
 
 .area-texto {
 
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
 
     display: flex;
     flex-direction: column;
@@ -38,9 +38,8 @@ body{
 }
 
 .area-texto:hover {
-    height: 100%;
-    width: 900px;
+    height: 80%;
+    width: 600px;
     transition: 0.7s;
     opacity: 0.8;
 }
-

@@ -3,8 +3,8 @@ body{
 }
 
 .area-foto{
-    background-image: url('../img/dipper-png.png');
-    background-position: 48%;
+    background-image: url('../img/minotauro.gif');
+    background-position-x: 90%;
     opacity: 0.8;
 }
 
